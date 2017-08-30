@@ -1,4 +1,4 @@
-# Fibonacci-series
+# Fibonacci-series-Module
 Fibonacci series with graph representation using python and matplotlib
 mathematics
 
