@@ -11,12 +11,14 @@ def fibo():
 if __name__ == '__main__':
 	while True:
 		s=[1,1,]
-		k=int(input('Enter how many fibina number :'))
+		k=int(input('Enter how many fibina number :'))	#python2
+		#k=int(raw_input('Enter how many fibina number :'))	#python3
 		for i in range(k):
 			fibo()
 		print(s)
 		plt.plot(s)
 		plt.show()
-		a= input("Do you want to continue (y/n):")
-		if a=='n':
+		a= input("Do you want to continue (y/n):") #python2
+		#a= raw_input("Do you want to continue (y/n):") #python3
+		if a.lower() =='n':
 			break
