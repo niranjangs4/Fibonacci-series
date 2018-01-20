@@ -1,3 +1,8 @@
+# Developer By : NIRANJAN KUMAR G S 
+# From : INDIA
+# Email : niranjan4@outlook.in
+# Updated date : 20/Jan/201
+
 import matplotlib.pyplot as plt
 
 def fibo():
