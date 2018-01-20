@@ -1,22 +1,17 @@
 # Fibonacci-series-Module
 Fibonacci series with graph representation using python and matplotlib
-mathematics
 
- 
-import matplotlib.pyplot as plt
+# Pre-requirement 
+python2 or python3
+pip install matplotlib
 
-def fibo():
-	c=s[-1]+s[-2]
-	s.append(c)
-if __name__ == '__main__':
-	while True:
-		s=[1,1,]
-		k=int(input('Enter how many fibina number :'))
-		for i in range(k):
-			fibo()
-		print(s)
-		plt.plot(s)
-		plt.show()
-		a= input("Do you want to continue (y/n):")
-		if a=='n':
-			break
+# How to run
+
+# windows/Linux/mac in terminal or console.
+python Fibonacci.py
+Example: python youtubeDownloader.py
+
+After Execution 
+It Will ask you "Enter how many fibina number :"
+enter number like 20
+You will get output 20 Fibonacci numbers
