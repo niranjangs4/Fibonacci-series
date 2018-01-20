@@ -15,8 +15,8 @@ if __name__ == '__main__':
 		#k=int(raw_input('Enter how many fibina number :'))	#python3
 		for i in range(k):
 			fibo()
-		print(s)
-		plt.plot(s)
+		print(s[0:len(s)-2])
+		plt.plot(s[0:len(s)-2])
 		plt.show()
 		a= input("Do you want to continue (y/n):") #python2
 		#a= raw_input("Do you want to continue (y/n):") #python3
