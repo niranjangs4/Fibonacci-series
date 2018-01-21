@@ -1,19 +1,6 @@
 # Fibonacci-series-Module
 Fibonacci series with graph representation using python and matplotlib
 
-# How it works
-
-## windows/Linux/mac in terminal or console.
-'''
-python Fibonacci.py
-Example: python Fibonacci.py
-
-After Execution 
-It Will ask you "Enter how many fibina number :"
-enter number like 20
-You will get output 20 Fibonacci numbers:
-'''
-
 ## Getting Started
 
 These instructions will get idea of the project up and running on your local machine for development and Execution purposes. See deployment for notes on how to deploy the project on a live system.
@@ -37,15 +24,20 @@ step 2. pip install matplotlib
 ```
 
 ## Running the Script
-
+```
 Enter terminal or console windows/Linux/mac.  
 
 Like : python filename.py       
 
-```
 Example : python Fibonacci.py
 ```
-## output
+# How it works
+```
+After Execution 
+It Will ask you "Enter how many fibina number :"
+enter number like 20
+You will get output 20 Fibonacci numbers:
+```
 # output
 [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765]
 
